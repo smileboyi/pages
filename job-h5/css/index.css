@@ -1,0 +1,282 @@
+html,body,.container,.page{
+    height:100%;
+    width:100%
+}
+.container{
+    max-width: 640px;
+    max-height:960px;
+    margin: 0 auto;
+    overflow: hidden
+}
+.page{
+    display:none;
+    position: relative
+}
+.current{
+    display: block
+}
+.x-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.page-1-1{
+    background: #083846
+}
+.page1-img1{
+    top:1%;
+    width: 66.13333%
+}
+.page1-img2{
+    bottom: 18.6%;
+    width: 49.33333%
+}
+.page-up {
+    bottom: 3.75%;
+    width: 25px;
+}
+.page-2-1,.page-2-2{
+    background: #9261bf
+}
+.page2-img1{
+    top:1.95%;
+    width: 42.1333%
+}
+.page2-img2{
+    top:27.88%;
+    width: 64%
+}
+.page2-img3{
+    position: absolute;
+    top:6.746%;
+    left: 20.8%;
+    width: 66.1333%
+}
+.page2-img4{
+    top:34.632%;
+    width: 64.2666%
+}
+.page2-img5,.page3-img5,.page4-img5{
+    bottom: 15.6%;
+    width: 142px
+}
+.img-dot{
+    bottom: 12.143%;
+    width: 20px
+}
+.page2-img6,.page3-img6,.page4-img7{
+    top:4.947%;
+    width: 78.1333%
+}
+.page2-img7,.page3-img7,.page4-img8,.page5-img2{
+    bottom: 18.44%;
+    width: 69.3333%
+}
+.page-3-1,.page-3-2{
+    background: #f3533c
+}
+.page3-img1{
+    top:1.95%;
+    width: 44.2666%
+}
+.page3-img2{
+    top:29.985%;
+    width: 66.6666%
+}
+.page3-img3{
+    bottom:35.98%;
+    width: 66.1333%
+}
+.page3-img4{
+    position: absolute;
+    bottom:26.686%;
+    right:18.6666%;
+    width: 45.8666%
+}
+.page-4-1,.page-4-2{
+    background: #ffbf50
+}
+.page4-img1{
+    top:1%;
+    width: 43.2%
+}
+.page4-img2{
+    top: 28.186%;
+    width: 61.333%
+}
+.page4-img3{
+    top: 32.98%;
+    width: 72%
+}
+.page4-img4{
+    top: 28.186%;
+    width: 42.666%
+}
+.page4-img6{
+    bottom: 21.29%;
+    width: 169px
+}
+.page-5-1{
+    background: #083846
+}
+.page5-img1{
+    top:19.94%;
+    width: 74.666%
+}
+/*页面切换动画效果类*/
+.page-move-up{
+    -webkit-animation:page-move-up .6s ease both;
+}
+.page-move-down{
+    -webkit-animation:page-move-down .6s ease both;
+}
+.page-move-left{
+    -webkit-animation:page-move-left .6s ease both;
+}
+.page-move-right{
+    -webkit-animation:page-move-right .6s ease both;
+}
+@-webkit-keyframes page-move-down {
+    from {-webkit-transform: translateY(-100%)}
+    to {-webkit-transform: translateY(0)}
+}
+@-webkit-keyframes page-move-up {
+    from {-webkit-transform: translateY(0%)}
+    to {-webkit-transform: translateY(-100%)}
+}
+@-webkit-keyframes page-move-left {
+    from {-webkit-transform: translateX(0)}
+    to {-webkit-transform: translateX(-100%)}
+}
+@-webkit-keyframes page-move-right {
+    from {-webkit-transform: translateX(0%)}
+    to {-webkit-transform: translateX(100%)}
+}
+/*page-level类使左右翻页的2个div水平*/
+.page-level1{
+    top:-100%;
+    left: 100%
+}
+.page-level2{
+    top:-100%;
+    left: 0
+}
+.page-level3{
+    left: -100%
+}
+/*图片动画类*/
+.current .moveFromTop{
+    -webkit-animation:moveFromTop .6s ease both;
+    -webkit-animation-delay:.6s
+}
+.current .moveFromBottom{
+    -webkit-animation:moveFromBottom .6s ease both;
+    -webkit-animation-delay:.6s
+}
+.current .moveFromLeft{
+    -webkit-animation:moveFromLeft .6s ease both;
+    -webkit-animation-delay:.6s
+}
+.current .moveFromRight{
+    -webkit-animation:moveFromRight .6s ease both;
+    -webkit-animation-delay:.6s
+}
+.current .pageUpShake{
+    -webkit-animation:pageUpShake ease 1.5s both infinite;
+    -webkit-animation-delay:.6s
+}
+.current .moveFloating{
+    -webkit-animation:moveFloating ease 1.5s both;
+    -webkit-animation-delay:.6s
+}
+.current .moveFloating2{
+    -webkit-animation:moveFloating2 ease 1.5s both;
+    -webkit-animation-delay:.6s
+}
+.current .dotLarger{
+    -webkit-animation:dotLarger ease .6s both;
+    -webkit-animation-delay:.6s
+}
+.current .moveWording{
+    -webkit-animation:moveWording ease .8s both;
+    -webkit-animation-delay:.6s
+}
+.current .moveCircle{
+    -webkit-animation:moveCircle ease .8s both;
+    -webkit-animation-delay:.6s
+}
+.current .flipIn{
+    -webkit-animation:flipIn ease .6s both;
+    -webkit-animation-delay:.6s
+}
+.current .rotateBottomIn{
+    -webkit-animation:rotateBottomIn ease .6s both;
+    -webkit-animation-delay:.6s
+}
+.current .rotateTopIn{
+    -webkit-animation:rotateTopIn ease .6s both;
+    -webkit-animation-delay:.6s
+}
+@keyframes moveFromTop {
+    from {-webkit-transform: translate(-50%,-100%)}
+}
+@keyframes moveFromBottom {
+    from {-webkit-transform: translateY(200%)}
+}
+@keyframes moveFromLeft {
+    from {-webkit-transform: translateX(-220%)}
+}
+@keyframes moveFromRight {
+    from {-webkit-transform: translateX(200%)}
+}
+@keyframes pageUpShake{
+    from {-webkit-transform: translate(-50%,-100%)}
+}
+@keyframes moveFloating{
+    from {opacity: 0;-webkit-transform: scale(.8)}
+}
+@keyframes moveFloating2{
+    from {opacity: 0;-webkit-transform: scale(.8) translateX(-50%)}
+}
+@keyframes dotLarger{
+    from {opacity: 0;-webkit-transform: scale(0.8) translateX(-50%)}
+}
+@keyframes moveWording{
+    from {opacity: 0;-webkit-transform: translate(-50%,100%)}
+}
+@keyframes moveCircle{
+    0%{opacity: 0;-webkit-transform: translate(-50%,-70%)}
+    40%{opacity: 1;-webkit-transform: translate(-50%,0%)}
+    60%{-webkit-transform: translate(-50%,-20%)}
+    100%{-webkit-transform: translate(-50%,0%)}
+}
+@keyframes flipIn{
+    from {-webkit-transform:translateX(-50%) translateZ(-1000px) rotateY(-90deg)}
+}
+@keyframes rotateBottomIn{
+    from {-webkit-transform:translate(-50%,-50%) translateZ(-200px) rotateX(90deg)}
+}
+@keyframes rotateTopIn{
+    from {-webkit-transform:translate(-50%,50%) translateZ(-200px) rotateX(90deg)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

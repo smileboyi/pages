@@ -1,0 +1,768 @@
+html,body,.container,.page{
+    height:100%;
+    width:100%
+}
+.container{
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+    max-width: 640px;
+    max-height:960px;
+    overflow: hidden
+}
+.page{
+    display: none;
+    position: relative
+}
+.current{
+    display: block
+}
+.x-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.pab{
+    position: absolute
+}
+/********************/
+.page-express{
+    background: url('../img/bg1.jpg') no-repeat center;
+    background-size: cover
+}
+.premier{
+    top:32.9835%;
+    right: 5.8666%;
+    width: 43.2%
+}
+.give{
+    bottom: 0;
+    right:-8%;
+    width: 61.8666%
+}
+.send{
+    top: 14.2429%;
+    left: 11.2333%;
+    width: 31.2%
+}
+.express{
+    top: 14.3928%;
+    left: 42.4%;
+    width: 29.3333%
+}
+.la{
+    top: 21.2893%;
+    right: 13%;
+    width: 14.6666%
+}
+.words{
+    bottom: 2.9985%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80.5333%
+}
+.arrow{
+    bottom: 10px;
+    left: 50%;
+    width: 37px
+}
+.page-who{
+    background: #0070b8
+}
+.page-who h1 img {
+    width: 68.7333%;
+    margin: 8.2458% 15.6334% 0
+}
+.flex{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height:80%
+}
+.flex .item {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between
+}
+.row .cell{
+    width: 50%
+}
+.row .cell a{
+    display: inline-block;
+    height: 100%;
+    width: 100%
+}
+.row .cell a img{
+    position: relative;
+    display: block;
+    width: 50%
+}
+.row .cell .farmer,
+.row .cell .worker,
+.row .cell .operator {
+    float: right;
+    margin-right: 15%
+}
+.row .cell .resident,
+.row .cell .student,
+.row .cell .retiree {
+    margin-left: 15%
+}
+.row .cell .farmer{
+    top:6%
+}
+.row .cell .worker {
+    top:5%;
+    left: 13.5%;
+    width: 63%
+}
+.row .cell .retiree{
+    top:2%
+}
+.row .cell .farmer{
+    -webkit-animation-delay:1.5s
+}
+.row .cell .resident{
+    -webkit-animation-delay:1.8s
+}
+.row .cell .worker{
+    -webkit-animation-delay:2.1s
+}
+.row .cell .student{
+    -webkit-animation-delay:2.4s
+}
+.row .cell .operator{
+    -webkit-animation-delay:2.7s
+}
+.row .cell .retiree{
+    -webkit-animation-delay:3s
+}
+.page-farmer{
+    background: url('../img/farmer-bg.png') no-repeat center;
+    background-size: cover
+}
+.cloud{
+    top: 14.9925%;
+    width: 44.8%
+}
+.shadow{
+    bottom:10.4948%;
+    right: 10.6667%;
+    z-index: 10;
+    width: 44.8%
+}
+.people-farmer{
+    bottom:11.6946%;
+    right: 10.6667%;
+    z-index: 11;
+    width: 33.6%
+}
+.hoe{
+    bottom:12.2936%;
+    right: 41.6%;
+    z-index: 11;
+    width: 13.3333%
+}
+.arm{
+    top:47.5772%;
+    right: 33.3333%;
+    z-index: 10;
+    width: 10.6667%
+}
+.right-hand{
+    top: 50.5772%;
+    right: 39.8533%;
+    z-index: 9;
+    width: 11.2%
+}
+.hen-main{
+    position: relative;
+    left: 17.3333%;
+    top:67.0165%;
+    width: 55px;
+    height: 78px
+}
+.hen{
+    bottom:10px;
+    width: 55px;
+    z-index: 10
+}
+.hen img{
+    width: 100%
+}
+.hen i{
+    top:20px;
+    left: 10px;
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 50%
+}
+.b-feet1{
+    bottom:3.5px;
+    left: 12px;
+    z-index: 9;
+    width: 12px
+}
+.b-feet2{
+    bottom:0;
+    left: 15px;
+    z-index: 9;
+    width: 15px
+}
+.cub-main{
+    width: 35px;
+    height: 30px
+}
+.cub{
+    bottom: 5px;
+    z-index: 10;
+    width: 35px
+}
+.s-feet1{
+    bottom:2px;
+    left: 11px;
+    z-index: 9;
+    width: 7px
+}
+.s-feet2{
+    bottom:0;
+    left: 17px;
+    z-index: 9;
+    width: 7px
+}
+.cm1{
+    bottom: 17.0915%;
+    left:9.3333%
+}
+.cm2{
+    bottom: 15.5922%;
+    left:23.2%
+}
+.cm3 {
+    bottom: 20.2399%;
+    left: 32%
+}
+.cm4{
+    bottom: 17.2414%;
+    left:39.46667%
+}
+.page-resident{
+    background: url('../img/bg2.jpg') no-repeat center;
+    background-size: cover
+}
+.people-child{
+    bottom: 4.4978%;
+    left: 14.6667%;
+    width: 61.8667%
+}
+.ch1{
+    bottom: 42.1769%;
+    left: 28.3333%;
+    width: 14.6667%
+}
+.ch2{
+    top: 55.1244%;
+    left: 12.1333%;
+    width: 13.3333%
+}
+.page-worker{
+    background: url('../img/bg3.jpg') no-repeat center;
+    background-size: cover
+}
+.people-worker{
+    bottom: 7.946%;
+    right: 18.1333%;
+    width: 51.4667%
+}
+.page-student{
+    background: url('../img/bg4.jpg') no-repeat center;
+    background-size: cover
+}
+.people-student{
+    bottom: 5.5472%;
+    left: 19.5333%;
+    width: 29.3333%
+}
+.page-operator{
+    background: url('../img/bg5.jpg') no-repeat center;
+    background-size: cover
+}
+.people-operator{
+    bottom: 4.4948%;
+    left: 11.2%;
+    z-index: 10;
+    width: 33.3333%
+}
+.left-hand1{
+    top:61.4708%;
+    left: 42.0667%;
+    width: 12.6667%
+}
+.left-hand2{
+    top:57.4228%;
+    left: 52.1333%;
+    width: 22%
+}
+.page-retiree{
+    background: url('../img/bg6.jpg') no-repeat center;
+    background-size: cover
+}
+.people-retiree{
+    bottom:10.9445%;
+    left: 14.9333%;
+    width: 70.6667%
+}
+.cat{
+    left: 52%;
+    bottom: 13.4422%;
+    z-index: 11;
+    width: 13.0667%
+}
+.express-main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+.light{
+    z-index: 19;
+    width:220%
+}
+.box-shadow{
+    z-index: 20;
+    width:130%
+}
+.express-box{
+    z-index: 21;
+    width: 48.8%
+}
+.center {
+    top: 50%;
+    left: 50%;
+    -webkit-transform:translate(-50%,-50%)
+}
+.none{
+    display: none
+}
+.open-words{
+    bottom:33%;
+    left: 50%;
+    -webkit-transform:translateX(-50%);
+    z-index: 22;
+    width: 80%
+}
+.boxbg1{
+    bottom: 0;
+    z-index: 30;
+    width: 100%;
+    height: 20%
+}
+.boxbg2{
+    bottom: 12%;
+    z-index: 28;
+    width: 100%
+}
+.informed {
+    height: 100%;
+    width: 85.0356%;
+    padding-top: 12%;
+    z-index: 29;
+    overflow: auto
+}
+.notice-bg{
+    width: 100%
+}
+.finger2{
+    top:52%;
+    right: 5%;
+    width: 8%;
+    z-index: 32
+}
+.back {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    display: block;
+    z-index: 50;
+    width: 64.3705%
+}
+.pgback1{
+    bottom: 4%
+}
+.pgback2{
+    bottom: 15%
+}
+.pgback3{
+    bottom: 3%
+}
+.pgback4{
+    bottom: -7.5%
+}
+.pgback5,
+.pgback6{
+    bottom: 4%;
+    z-index: 49
+}
+.see-more{
+    width: 100%
+}
+.cm-center{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 25
+}
+.bird-fly{
+    top:20%;
+    left: 55%;
+    width: 50px;
+    height: 26px
+}
+.bird-mian{
+    width: 50px;
+    height: 26px
+}
+.bird{
+    z-index: 40;
+    width: 100%;
+    height: 100%
+}
+.wing1{
+    left: 15px;
+    top: -5px;
+    z-index: 39;
+    width: 20px
+}
+.wing2{
+    left: 14px;
+    bottom: -10px;
+    z-index: 41;
+    width: 18px
+}
+.current .fadeInRightBottom{
+    -webkit-animation:fadeInRightBottom ease 1.2s both;
+    -webkit-animation-delay:.6s
+}
+.current .bounceInUp{
+    -webkit-animation:bounceInUp ease .6s both
+}
+.current .bounceInDown{
+    -webkit-animation:bounceInDown ease 0.8s both;
+    -webkit-animation-delay:2.3s
+}
+.current .bounceIn{
+    -webkit-animation:bounceIn ease 0.6s both
+}
+.express.bounceIn{
+    -webkit-animation-delay:3.1s
+}
+.la.bounceIn{
+    -webkit-animation-delay:3.7s
+}
+.current .fadeInBottom{
+    -webkit-animation:fadeInBottom ease 0.4s both;
+    -webkit-animation-delay:4.3s
+}
+.current .slideOutUp{
+    -webkit-animation:slideOutUp ease 1.5s both infinite
+}
+.current .flipInY{
+    -webkit-animation:flipInY ease .8s both
+}
+.current .rubberBand{
+    -webkit-animation:rubberBand ease 3s both infinite;
+    -webkit-transform-origin:50% 100%
+}
+.cm1.cubSwing1{
+    -webkit-animation:cubSwing1 ease .6s both infinite
+}
+.cm2.cubSwing2{
+    -webkit-animation:cubSwing2 ease .6s both infinite
+}
+.cm3.cubSwing3{
+    -webkit-animation:cubSwing3 ease .6s both infinite
+}
+.cm4.cubSwing4{
+    -webkit-animation:cubSwing4 ease .6s both infinite
+}
+.hoe.hoeSwing{
+    -webkit-animation:hoeSwing ease 4s both infinite;
+    -webkit-transform-origin:50% 100%
+}
+.right-hand.handSwing{
+    -webkit-animation:handSwing ease 4s both infinite;
+    -webkit-transform-origin:80% 100%
+}
+.cloud.cloudMove{
+    -webkit-animation:cloudMove ease-out 15s both infinite
+}
+.ch1.handSwing2{
+    -webkit-animation:handSwing2 ease 4s both infinite;
+    -webkit-transform-origin:0% 50%;
+    -webkit-animation-delay:.5s
+}
+.ch2.handSwing3{
+    -webkit-animation:handSwing3 ease 4s both infinite;
+    -webkit-transform-origin:50% 10%;
+    -webkit-animation-delay:.5s
+}
+.current .peopleBand{
+    -webkit-animation:peopleBand ease 1.2s both infinite;
+    -webkit-transform-origin:100% 100%
+}
+.cat.catSwing{
+    -webkit-animation:catSwing ease 1.5s both infinite;
+    -webkit-transform-origin:50% 100%
+}
+.pageSwiper{
+    -webkit-animation:pageSwiper ease .6s both;
+}
+.current .bounceIn2{
+    -webkit-animation:bounceIn2 ease .8s both;
+    -webkit-animation-delay:1s
+}
+.current .scaleIn{
+    -webkit-animation:scaleIn ease .8s both;
+    -webkit-transform-origin:0% 0%;
+    -webkit-animation-delay:1s
+}
+.current .scaleIn2{
+    -webkit-animation:scaleIn ease .8s both;
+    -webkit-transform-origin:0% 0%;
+    -webkit-animation-delay:1.8s
+}
+.current .scaleOut{
+    -webkit-animation:scaleOut ease .8s both;
+}
+/*.current .lightSwing{*/
+    /*-webkit-animation:lightSwing linear 10s both infinite;*/
+    /*-webkit-transform-origin: 50% 50%;*/
+    /*-webkit-animation-delay:10s*/
+/*}*/
+.current .moveBox{
+    -webkit-animation:moveBox ease .6s both;
+    -webkit-animation-delay:.4s
+}
+.current .moveInfo{
+    -webkit-animation:moveInfo ease .6s both;
+    -webkit-animation-delay:1s
+}
+.current .moveFinger{
+    -webkit-animation:moveFinger ease-out 2.5s both infinite;
+    -webkit-animation-delay:.2s
+}
+.current.pageInTop{
+    -webkit-animation:pageInTop ease .6s both
+}
+.current.pageOutTop{
+    -webkit-animation:pageOutTop ease .6s both
+}
+.current.pageOutTop2{
+    -webkit-animation:pageOutTop2 ease .6s both
+}
+.current .moveWing1{
+    -webkit-animation:moveWing1 ease .8s both infinite
+}
+.current .moveWing2{
+    -webkit-animation:moveWing2 ease .8s both infinite
+}
+.current .moveBird1{
+     -webkit-animation:moveBird1 ease 10s both infinite;
+ }
+.current .moveBird2{
+    -webkit-animation:moveBird2 ease 10s both infinite;
+}
+@keyframes fadeInRightBottom{
+    from {opacity: 0;-webkit-transform: translate(50%,100%)}
+}
+@keyframes fadeInBottom{
+    from {opacity: 0;-webkit-transform: translate(-50%,-100%)}
+}
+@keyframes bounceInUp{
+    0%{-webkit-transform: scale(0.9)}
+    50%{-webkit-transform: scale(1)}
+    75%{-webkit-transform: scale(0.9)}
+    100%{-webkit-transform: scale(1)}
+}
+@keyframes bounceInDown{
+    0%{opacity: 0;-webkit-transform:translateY(-100%) }
+    70%,100%{opacity: 1;-webkit-transform:translateY(0) }
+    85%{-webkit-transform:translateY(-20%) }
+}
+@keyframes bounceIn{
+    0%{opacity: 0;-webkit-transform: scale(0) }
+    30%{opacity: .8;-webkit-transform: scale(1.2) }
+    70%{opacity: 1;-webkit-transform:scale(.8) }
+    100%{-webkit-transform:scale(1) }
+}
+@keyframes slideOutUp{
+    0%{-webkit-transform: translate(-50%,0) }
+    30%{opacity: 1; }
+    100%{opacity: 0;-webkit-transform:translate(-50%,-80%) }
+}
+@keyframes flipInY{
+    from{opacity: 0;-webkit-transform:rotateY(-180deg)}
+}
+
+@keyframes rubberBand{
+    70%,80%{-webkit-transform:scaleY(1.2)}
+}
+@-webkit-keyframes cubSwing1 {
+    0%,100% {-webkit-transform: scale(0.8)}
+    20%,60% {-webkit-transform: scale(0.8) rotate(-15deg)}
+    40%,80% {-webkit-transform: scale(0.8) rotate(-5deg) }
+}
+@-webkit-keyframes cubSwing2 {
+    0%,100% {-webkit-transform: scale(0.7)}
+    20%,60% {-webkit-transform: scale(0.7) rotate(-10deg)}
+    40%,80% {-webkit-transform: scale(0.7) rotate(0deg) }
+}
+@-webkit-keyframes cubSwing3 {
+    0%,100% {-webkit-transform: scale(0.5)}
+    20%,60% {-webkit-transform: scale(0.5) rotate(5deg)}
+    40%,80% {-webkit-transform: scale(0.5) rotate(15deg) }
+}
+@-webkit-keyframes cubSwing4 {
+    0%,100% {-webkit-transform: scale(0.75)}
+    20%,60% {-webkit-transform: scale(0.75) rotate(0deg)}
+    40%,80% {-webkit-transform: scale(0.75) rotate(10deg) }
+}
+@-webkit-keyframes hoeSwing {
+    20%,60% {-webkit-transform: rotate(-3deg) }
+    40%,80% {-webkit-transform: rotate(3deg) }
+}
+@-webkit-keyframes hoeSwing {
+    0%,100% {-webkit-transform: rotate(0deg) }
+    25% {-webkit-transform: rotate(-3deg) }
+    75%{-webkit-transform: rotate(3deg) }
+}
+@-webkit-keyframes handSwing{
+    0%,100% {-webkit-transform: rotate(0deg) }
+    25% {-webkit-transform: rotate(-6deg) }
+    75%{-webkit-transform: rotate(12deg) }
+}
+@-webkit-keyframes cloudMove{
+    from{-webkit-transform: translateX(200%)}
+    to  {-webkit-transform: translateX(-100%)}
+}
+@-webkit-keyframes handSwing2{
+    0%,100% {-webkit-transform: rotate(-15deg) }
+    50%{-webkit-transform: rotate(15deg) }
+}
+
+@-webkit-keyframes handSwing3{
+    0%,100% {-webkit-transform:rotateY(180deg)  rotate(-5deg)}
+    50%{-webkit-transform:rotateY(180deg)  rotate(22deg)}
+}
+@-webkit-keyframes peopleBand{
+    40%{-webkit-transform:scaleY(1.02)}
+    100%{-webkit-transform:scaleY(1)}
+}
+@-webkit-keyframes catSwing{
+    0%,100% {-webkit-transform: rotate(-5deg)}
+    50%{-webkit-transform:rotate(3deg)}
+}
+
+@-webkit-keyframes pageSwiper{
+    0%{-webkit-transform: translateY(0%)}
+    100%{-webkit-transform:translateY(-100%)}
+}
+@-webkit-keyframes bounceIn2{
+    from{opacity: 0}
+}
+@-webkit-keyframes scaleIn{
+    0%{-webkit-transform: scale(0) translate(-50%,-50%)}
+    85%,100%{-webkit-transform: scale(1) translate(-50%,-50%)}
+    90%{-webkit-transform: scale(0.95) translate(-50%,-50%)}
+}
+@-webkit-keyframes scaleOut{
+    to{opacity: 0;-webkit-transform: scale(0)}
+}
+/*@-webkit-keyframes lightSwing{*/
+    /*to{-webkit-transform: rotate(270deg) translate(-50%,-50%)}*/
+/*}*/
+
+@-webkit-keyframes moveBox {
+    from{-webkit-transform: translateY(150%)}
+}
+@-webkit-keyframes moveInfo {
+    from{-webkit-transform: translate(-50%,100%)}
+}
+@-webkit-keyframes moveFinger {
+    from{ -webkit-transform: rotate(-30deg)}
+    to{ -webkit-transform: translateY(-200%) rotate(-30deg)}
+}
+@-webkit-keyframes pageInTop {
+    from{ -webkit-transform: translateY(-100%)}
+}
+@-webkit-keyframes pageOutTop {
+    to{ -webkit-transform: translateY(100%) scale(.3)}
+}
+@-webkit-keyframes pageOutTop2 {
+   from{ -webkit-transform: translateY(-100%) scale(1)}
+   to{ -webkit-transform: translateY(0%) scale(.3)}
+}
+
+@-webkit-keyframes moveWing1 {
+    0%,100%{ -webkit-transform: rotate(10deg)}
+    50%{ -webkit-transform: rotate(-10deg)}
+}
+@-webkit-keyframes moveWing2 {
+    0%,100%{ -webkit-transform: rotate(-10deg)}
+    50%{ -webkit-transform: rotate(10deg)}
+}
+@-webkit-keyframes moveBird1{
+    from{-webkit-transform: translateX(400%)}
+    to{-webkit-transform: translateX(-550%)}
+}
+@-webkit-keyframes moveBird2{
+    0%,100%{-webkit-transform: translateY(300%)}
+    50%{-webkit-transform: translateY(0%)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
