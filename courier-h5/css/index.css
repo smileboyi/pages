@@ -1,6 +1,7 @@
 html,body,.container,.page{
     height:100%;
-    width:100%
+    width:100%;
+    max-width: 750px;
 }
 .container{
 	left: 50%;
@@ -322,9 +323,13 @@ html,body,.container,.page{
 }
 .express-main {
     position: absolute;
+    left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
     width: 100%;
+    max-width: 750px;
     height: 100%;
-    overflow: hidden
+    overflow: hidden;
 }
 .light{
     z-index: 19;
@@ -371,6 +376,9 @@ html,body,.container,.page{
     z-index: 29;
     overflow: auto
 }
+.notice-body{
+    position: relative;
+}
 .notice-bg{
     width: 100%
 }
@@ -389,20 +397,20 @@ html,body,.container,.page{
     width: 64.3705%
 }
 .pgback1{
-    bottom: 2rem
+    bottom: 19%
 }
 .pgback2{
-    bottom: 7rem
+    bottom: 22%
 }
 .pgback3{
-    bottom: 2rem
+    bottom: 19%
 }
 .pgback4{
-    bottom: -3.5rem
+    bottom: 15.5%
 }
 .pgback5,
 .pgback6{
-    bottom: 1.8rem;
+    bottom: 19%;
     z-index: 49
 }
 .see-more{
@@ -698,7 +706,7 @@ html,body,.container,.page{
     from{ -webkit-transform: translateY(-100%)}
 }
 @-webkit-keyframes pageOutTop {
-    to{ -webkit-transform: translateY(100%) scale(.3)}
+    to{ -webkit-transform: translate(-50%,100%) scale(.3)}
 }
 @-webkit-keyframes pageOutTop2 {
    from{ -webkit-transform: translateY(-100%) scale(1)}
